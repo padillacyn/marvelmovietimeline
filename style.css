@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body {
+  margin:0;
+  font-family:Oswald;
+}
+#container .box {
+  width:30vw;
+  height:100vh;
+  display:inline-block;
+  position:relative;
+}
+#container {
+  overflow-y:scroll;
+  overflow-x:hidden;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  position:absolute;
+  width:100vh;
+  height:100vw;
+}
+#container2 {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  white-space:nowrap;
+  font-size:0;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+.text{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 600; 
+}
+.tl-year{
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 600; 
+}
+
+.one {
+  background-image: url(images/ironman.jpg);
+  background-position: center;
+}
+.one:hover .overlay {
+  opacity: 0.5;
+}
+.two {
+  background-image: url(images/thehulk.jpg);
+  background-position: center;
+}
+.two:hover .overlay{
+  opacity: 0.5; 
+}
+.three {
+  background-image: url(images/ironman2.jpg);
+  background-position: center;
+}
+.three:hover .overlay{
+  opacity: 0.5; 
+}
+.four {
+ background-image: url(images/thor.jpg);
+ background-position: center;
+}
+.four:hover .overlay{
+opacity: 0.5; 
+}
+.five{
+  background-image: url(images/captainamerica.jpeg);
+  background-position: center;
+}
+.five:hover .overlay{
+	opacity: 0.5; 
+}
+.six{
+  background-image: url(images/avengers.jpg);
+  background-position: center;
+}
+.six:hover .overlay{
+	opacity: 0.5; 
+}
+.seven{
+  background-image: url(images/ironman3.jpg);
+  background-position: center;
+}
+.seven:hover .overlay{
+	opacity: 0.5; 
+}
+.eight{
+  background-image: url(images/thordarkworld.jpg);
+  background-position: center;
+}
+.eight:hover .overlay{
+	opacity: 0.5; 
+}
+.nine{
+  background-image: url(images/captainamericawintersoldier.jpg);
+  background-position: center;
+}
+.nine:hover .overlay{
+	opacity: 0.5; 
+}
+.ten{
+  background-image: url(images/guardiansofthegalaxy.jpg);
+  background-position: center;
+}
+.ten:hover .overlay{
+	opacity: 0.5; 
+}
+.eleven{
+  background-image: url(images/ageofultron.jpg);
+  background-position: center;
+}
+.eleven:hover .overlay{
+	opacity: 0.5; 
+}
+.twelve{
+  background-image: url(images/antman.jpg);
+  background-position: center;
+}
+.twelve:hover .overlay{
+	opacity: 0.5; 
+}
+.thirteen{
+background-image: url(images/civilwar.jpg);
+background-position: center;
+}
+.thirteen:hover .overlay{
+	opacity: 0.5; 
+}
+.fourteen{
+background-image: url(images/doctorstrange.jpg);
+background-position: center;
+}
+.fourteen:hover .overlay{
+	opacity: 0.5; 
+}
+.fifteen{
+background-image: url(images/guardians2.jpg);
+background-position: center;
+}
+.fifteen:hover .overlay{
+	opacity: 0.5; 
+}
+.sixteen{
+background-image: url(images/spiderman.jpg);
+background-position: center;
+}
+.sixteen:hover .overlay{
+	opacity: 0.5; 
+}
+.seventeen{
+background-image: url(images/thor3.jpg);
+background-position: center;
+}
+.seventeen:hover .overlay{
+	opacity: 0.5; 
+}
+.eighteen{
+background-image: url(images/blackpanther.jpg);
+background-position: center;
+}
+.eighteen:hover .overlay{
+	opacity: 0.5; 
+}
+.nineteen{
+background-image: url(images/infinitywar.jpg);
+background-position: center;
+}
+.nineteen:hover .overlay{
+	opacity: 0.5; 
+}
+.twenty{
+background-image: url(images/antmanthewasp.jpg);
+background-position: center;
+}
+.twenty:hover .overlay{
+	opacity: 0.5; 
+}
+.twentyone{
+background-image: url(images/captainmarvel.jpg);
+background-position: center;
+}
+.twentyone:hover .overlay{
+	opacity: 0.5; 
+}
+.twentytwo{
+background-image: url(images/endgame.jpg);
+background-position: center;
+}
+.twentytwo:hover .overlay{
+	opacity: 0.5; 
+}
+.twentythree{
+background-image: url(images/farfromhome.jpg);
+background-position: center;
+}
+.twentythree:hover .overlay{
+	opacity: 0.5; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
